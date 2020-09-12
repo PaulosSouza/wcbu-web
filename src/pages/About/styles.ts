@@ -40,10 +40,22 @@ export const Container = styled.div`
       font-size: 7rem;
     }
   }
+
+  @media (max-width: 425px) {
+    h1 {
+      font-size: 3rem;
+    }
+  }
 `;
 
 export const Wind = styled.img`
   margin-left: auto;
 
   animation: ${rotate} 6s linear infinite;
+
+  height: 14rem;
+
+  @media (max-width: 768px) {
+    height: 10rem;
+  }
 `;
