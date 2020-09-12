@@ -17,7 +17,7 @@ export const Container = styled.div<ContainerProps>`
 
     a {
       color: #fff;
-      font-size: 3rem;
+      font-size: 2.4rem;
       font-weight: bold;
       font-style: italic;
       padding-bottom: 0.8rem;
@@ -32,6 +32,12 @@ export const Container = styled.div<ContainerProps>`
 
       & + a {
         margin-left: 30px;
+      }
+    }
+
+    @media (max-width: 375px) {
+      a {
+        font-size: 2rem;
       }
     }
 

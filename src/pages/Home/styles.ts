@@ -23,6 +23,16 @@ export const Container = styled.div`
     font-style: italic;
   }
 
+  @media (max-width: 375px) {
+    h1 {
+      font-size: 9.6rem;
+    }
+
+    h2 {
+      font-size: 2.4rem;
+    }
+  }
+
   @media (min-width: 768px) {
     h1 {
       font-size: 18rem;
